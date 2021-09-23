@@ -1,0 +1,38 @@
+"Games"
+{
+    "csgo"
+    {
+        "Addresses"
+        {
+            "IsWeaponAllowed"
+            {
+                "signature" "CCSGameRules::IsWeaponAllowed"
+            }
+        }
+
+        "Offsets"
+        {
+            "FixShit"
+            {
+                "linux"     "403"
+                "windows"   "851"
+            }
+
+            "WhatIsOS"
+            {
+                "linux"     "1"
+                "windows"   "2"
+            }
+        }
+
+        "Signatures"
+        {
+            "CCSGameRules::IsWeaponAllowed"
+            {
+                "library"   "server"
+                "linux"     "\x55\x89\xE5\x83\xEC\x38\x89\x5D\xF4\x8B\x5D\x0C\x89\x75\xF8\xBE\x09\x00\x00\x00"
+                "windows"   "\x55\x8B\xEC\x83\xEC\x08\x57\x8B\x7D\x08"
+            }
+        }
+    }
+}
