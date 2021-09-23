@@ -17,7 +17,7 @@ public void OnPluginStart()
 	
 	if(!hGameData)
 	{
-		SetFailState("Failed to load NoDisarmMod gamedata.");
+		SetFailState("Failed to load Fix_Pickup_Shield gamedata.");
 		return;
 	}
 
