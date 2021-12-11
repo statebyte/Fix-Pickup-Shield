@@ -14,7 +14,7 @@
         {
             "FixShit"
             {
-                "linux"     "403"
+                "linux"     "418"
                 "windows"   "851"
             }
 
