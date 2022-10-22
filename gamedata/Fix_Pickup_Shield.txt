@@ -14,8 +14,8 @@
         {
             "FixShit"
             {
-                "linux"     "418"
-                "windows"   "851"
+                "linux"     "523"
+                "windows"   "1909"
             }
 
             "WhatIsOS"
