@@ -14,8 +14,8 @@
         {
             "FixShit"
             {
-                "linux"     "418"
-                "windows"   "851"
+                "linux"     "794"
+                "windows"   "1909"
             }
 
             "WhatIsOS"
@@ -27,10 +27,10 @@
 
         "Signatures"
         {
-            "CCSGameRules::IsWeaponAllowed"
+            "CCSGameRules::IsWeaponAllowed" // Around (3 args)
             {
                 "library"   "server"
-                "linux"     "\x55\x89\xE5\x83\xEC\x38\x89\x5D\xF4\x8B\x5D\x0C\x89\x75\xF8\xBE\x09\x00\x00\x00"
+                "linux"     "\x55\x89\xE5\x57\x56\x53\x83\xEC\x1C\x8B\x5D\x0C\x85\xDB\x74\x2A\x80\x7B\x7C\x00"
                 "windows"   "\x55\x8B\xEC\x83\xEC\x08\x57\x8B\x7D\x08"
             }
         }
