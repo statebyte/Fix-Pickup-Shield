@@ -14,7 +14,7 @@
         {
             "FixShit"
             {
-                "linux"     "794"
+                "linux"     "851"
                 "windows"   "1909"
             }
 
